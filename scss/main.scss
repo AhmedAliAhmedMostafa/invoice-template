@@ -1,0 +1,27 @@
+@import './variables';
+@import './header';
+@import './summary';
+.light{
+  font-weight: 300;
+}
+.normal{
+  font-weight: 400;
+}
+.bold{
+  font-weight: 500;
+}
+.titel{
+  font-family: 'Michroma',sans-serif;
+}
+body{
+  padding-top: 1rem;
+  font-family: 'Roboto',sans-serif;
+  color: $body-text;
+}
+.template-container{
+  width: 70%;
+  padding: 1rem 0.5rem 0.6rem;
+  border: 3px solid black;
+  margin: 0 auto;
+
+}

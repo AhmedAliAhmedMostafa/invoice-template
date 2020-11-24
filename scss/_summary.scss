@@ -1,0 +1,21 @@
+.summary{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  position: relative;
+}
+.summary__card{
+  width: 45%;
+  padding:8px 4px ;
+  border: 3px black solid;
+  border-radius: 8px;
+}
+.summary__badge{
+  padding:2px ;
+  background: white;
+  text-align: center;
+  text-transform: capitalize;;
+  position: absolute;
+  top: -8px;
+}

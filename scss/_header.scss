@@ -1,0 +1,22 @@
+.header{
+  width: 90%;
+  margin-right: auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.logo{
+  width: 30%;
+}
+.logo >img{
+  height: 100%;
+}
+.brand-info__heading{
+  font-size: 32px;
+  margin: 0 0 4px ;
+}
+.brand-info__body{
+  font-family: 'Roboto' ,sans-serif;
+  font-weight: 500;
+}

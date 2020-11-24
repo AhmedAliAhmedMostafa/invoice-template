@@ -1,0 +1,92 @@
+.header {
+  width: 90%;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo {
+  width: 30%;
+}
+
+.logo > img {
+  height: 100%;
+}
+
+.brand-info__heading {
+  font-size: 32px;
+  margin: 0 0 4px;
+}
+
+.brand-info__body {
+  font-family: 'Roboto' ,sans-serif;
+  font-weight: 500;
+}
+
+.summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 2rem;
+  position: relative;
+}
+
+.summary__card {
+  width: 45%;
+  padding: 8px 4px;
+  border: 3px black solid;
+  border-radius: 8px;
+}
+
+.summary__badge {
+  padding: 2px;
+  background: white;
+  text-align: center;
+  text-transform: capitalize;
+  position: absolute;
+  top: -8px;
+}
+
+.light {
+  font-weight: 300;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.bold {
+  font-weight: 500;
+}
+
+.titel {
+  font-family: 'Michroma',sans-serif;
+}
+
+body {
+  padding-top: 1rem;
+  font-family: 'Roboto',sans-serif;
+  color: #2C2825;
+}
+
+.template-container {
+  width: 70%;
+  padding: 1rem 0.5rem 0.6rem;
+  border: 3px solid black;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=main.css.map */
